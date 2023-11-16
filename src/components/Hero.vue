@@ -18,29 +18,21 @@
             From NYC
           </h1>
           <p style="color: #fff; font-weight: 700">
-            Greetings, I am Baruch Khafizov, an accomplished professional in
-            event planning, music, and DJ services, proudly based in the vibrant
-            city of New York. With a rich history of orchestrating unforgettable
-            experiences, I bring a wealth of expertise to a diverse range of
-            events, including weddings, bar and bat mitzvahs, engagement
-            parties, brit milahs, and beyond. My journey in the industry has
-            been marked by a dedication to excellence and a passion for creating
-            lasting memories. Having curated and executed numerous successful
-            events, I have honed my skills in tailoring each occasion to the
-            unique preferences and visions of my clients. Whether it be the
-            enchanting ambiance of a wedding, the celebratory spirit of a bar
-            mitzvah, or the joyous atmosphere of an engagement party, I take
-            pride in delivering an exceptional and personalized experience. My
-            areas of specific expertise extend beyond the realm of event
-            execution. With a keen focus on musical artistry and DJ services, I
-            craft seamless and memorable soundscapes that elevate the overall
-            ambiance. In addition, my proficiency in event planning includes
-            meticulous attention to detail, ensuring flawless execution from
-            conceptualization to the final curtain call. I am driven by a
-            commitment to professionalism and a relentless pursuit of
-            perfection. As I continue to contribute my skills and passion to the
-            world of events, I look forward to creating unparalleled experiences
-            that leave a lasting imprint on the hearts of those who attend.
+            Greetings, I'm Baruch Khafizov, a highly seasoned professional
+            specializing in event planning, music, and DJ services, based in the
+            vibrant hub of New York City. With a distinguished reputation for
+            orchestrating truly extraordinary experiences, I specialize in
+            tailoring events, ranging from weddings to mitzvahs, with an
+            unwavering focus on providing personalized service. My expertise
+            extends beyond event execution. With a unique emphasis on musical
+            artistry and meticulous planning, I ensure seamless and memorable
+            experiences that leave a lasting impression. Whether it's crafting
+            the enchanting ambiance of a wedding or capturing the celebratory
+            spirit of a mitzvah, my commitment to professionalism and perfection
+            shines through. Choose distinction and elevate your event journey
+            with Baruch Khafizov—an unparalleled choice for those seeking
+            extraordinary and personalized experiences in the heart of New York
+            City.
           </p>
         </div>
         <div
