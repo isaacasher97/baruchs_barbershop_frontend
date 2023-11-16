@@ -3,13 +3,15 @@
     <Carousel :items-to-show="2.5" :wrap-around="true">
       <Slide v-for="(video, index) in videos" :key="index">
         <div class="carousel__item">
-          <iframe
-            width="100%"
-            height="315"
-            :src="'https://www.youtube.com/embed/' + video.videoId"
-            frameborder="0"
-            allowfullscreen
-          ></iframe>
+          <div class="video-container">
+            <iframe
+              width="100%"
+              height="100%"
+              :src="'https://www.youtube.com/embed/' + video.videoId"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+          </div>
           <div class="video-details">
             <div class="video-title">{{ video.title }}</div>
           </div>
@@ -91,5 +93,31 @@ export default defineComponent({
 
 .video-title {
   color: #fff;
+}
+
+/* Ensure a Square Aspect Ratio */
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-top: 100%; /* 1:1 Aspect Ratio (square) */
+}
+
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Responsive Styles for Screens with a Max Width of 450px */
+@media only screen and (max-width: 450px) {
+  .carousel__item {
+    margin: 0 5px; /* Adjust margin for smaller screens */
+    padding: 5px; /* Adjust padding for smaller screens */
+  }
+  .video-details {
+    margin-top: 5px; /* Adjust margin between video and title for smaller screens */
+  }
 }
 </style>
