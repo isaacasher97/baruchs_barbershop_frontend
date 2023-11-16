@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     <div class="hero">
+      <Hero />
       <Slideshow />
       <Carousel />
     </div>
@@ -14,6 +15,7 @@ import HelloWorld from "@/components/HelloWorld.vue";
 import Slideshow from "../components/Slideshow.vue";
 import Footer from "../components/Footer.vue";
 import Carousel from "../components/Carousel.vue";
+import Hero from "../components/Hero.vue";
 
 export default {
   name: "HomeView",
@@ -22,6 +24,7 @@ export default {
     Slideshow,
     Footer,
     Carousel,
+    Hero,
   },
 };
 </script>
