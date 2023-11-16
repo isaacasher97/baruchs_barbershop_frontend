@@ -13,7 +13,11 @@
               :src="media.url"
               :class="{
                 'special-image':
-                  media.url === 'https://i.imgur.com/0Gk1myB.jpg',
+                  media.url === 'https://i.imgur.com/0Gk1myB.jpg' ||
+                  media.url === 'https://i.imgur.com/tq0dzch.jpg',
+                'regular-image':
+                  media.url !== 'https://i.imgur.com/0Gk1myB.jpg' &&
+                  media.url !== 'https://i.imgur.com/tq0dzch.jpg',
               }"
               alt="Image"
             />
@@ -46,7 +50,11 @@
               :class="{
                 thumbnail: true,
                 'special-thumbnail':
-                  media.url === 'https://i.imgur.com/0Gk1myB.jpg',
+                  media.url === 'https://i.imgur.com/0Gk1myB.jpg' ||
+                  media.url === 'https://i.imgur.com/tq0dzch.jpg',
+                'regular-thumbnail':
+                  media.url !== 'https://i.imgur.com/0Gk1myB.jpg' &&
+                  media.url !== 'https://i.imgur.com/tq0dzch.jpg',
               }"
               alt="Thumbnail"
             />
@@ -118,7 +126,6 @@ img {
 }
 
 .carousel {
-  padding: 20px;
   background-color: #fce055;
   background-image: linear-gradient(
     319deg,
@@ -139,13 +146,18 @@ iframe {
 }
 
 .special-image {
-  /* Add styles for the special image here */
-  width: 200px; /* Set the desired width for the special image */
+  /* Add styles specific to the special image here */
+  width: 400px; /* Set the desired width for the special image */
 }
 
 .special-thumbnail {
-  /* Add styles for the special thumbnail here */
+  /* Add styles specific to the special thumbnail here */
   height: 120px; /* Set the desired height for the special thumbnail */
+}
+
+.regular-thumbnail {
+  /* Add styles specific to regular thumbnails here */
+  height: 100px; /* Set the desired height for regular thumbnails */
 }
 
 /* Responsive Styles for Screens with a Max Width of 450px */
@@ -156,6 +168,10 @@ iframe {
 
   .special-thumbnail {
     height: 60px; /* Adjust height for the special thumbnail on smaller screens */
+  }
+
+  .regular-thumbnail {
+    height: 50px; /* Adjust height for regular thumbnails on smaller screens */
   }
 }
 </style>
