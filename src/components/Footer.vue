@@ -1,6 +1,9 @@
 <template>
   <!-- Footer -->
-  <footer class="text-center text-lg-start bg-white text-muted">
+  <footer
+    id="bottomfooter"
+    class="text-center text-lg-start bg-white text-muted"
+  >
     <!-- Section: Social media -->
     <section
       class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
@@ -54,8 +57,11 @@
               <i class="fas fa-gem me-3 text-secondary"></i>Baruch Entertainment
             </h6>
             <p>
-              Here you can use rows and columns to organize your footer content.
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Experience excellence with Baruch Khafizov—your top-tier choice
+              for event planning, music, and DJ services in New York. Elevate
+              weddings, mitzvahs, and engagements with my proven expertise.
+              Choose distinction, choose Baruch Khafizov, and let's craft
+              unforgettable moments together.
             </p>
           </div>
           <!-- Grid column -->
@@ -129,4 +135,14 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+#bottomfooter {
+  background-color: #ffffff;
+  background-image: linear-gradient(315deg, #ffffff 0%, #335c81 74%);
+}
+
+p {
+  color: #fff;
+  font-weight: 500;
+}
+</style>

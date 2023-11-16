@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav id="topnavbar" class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"
         ><img style="width: 250px" src="../public/imgs/baruchent_logo.jpg"
@@ -16,7 +16,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul id="nav-list" class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
@@ -48,16 +48,26 @@
   color: #2c3e50;
 }
 
+body {
+  background-color: #ffeaa7;
+  background-image: linear-gradient(315deg, #ffeaa7 0%, #000000 74%);
+}
+
 nav {
   padding: 30px;
 }
 
 nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: #fff;
 }
 
 nav a.router-link-exact-active {
-  color: #42b983;
+  color: #fff;
+}
+
+#topnavbar {
+  background-color: #ffffff;
+  background-image: linear-gradient(315deg, #ffffff 0%, #335c81 74%);
 }
 </style>
