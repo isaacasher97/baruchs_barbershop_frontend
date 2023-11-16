@@ -10,7 +10,7 @@
     >
       <!-- Left -->
       <div class="me-5 d-none d-lg-block">
-        <span>Get connected on social networks:</span>
+        <span id="getconnected">Get connected on social networks:</span>
       </div>
       <!-- Left -->
 
@@ -181,5 +181,12 @@ export default {
 p {
   color: #fff;
   font-weight: 500;
+}
+
+#getconnected {
+  color: #fff;
+  padding: 60px;
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 </style>
