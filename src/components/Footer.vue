@@ -98,7 +98,7 @@
             <p><i class="fas fa-home me-3 text-secondary"></i> New York, NY</p>
             <p>
               <i class="fas fa-envelope me-3 text-secondary"></i>
-              info@example.com
+              borukhkhafizov@yahoo.com
             </p>
             <p>
               <i class="fas fa-phone me-3 text-secondary"></i> 1 (347)-845-9131
