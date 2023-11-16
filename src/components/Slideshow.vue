@@ -97,7 +97,7 @@ img {
 }
 
 .carousel {
-  padding: 0px;
+  padding: 20px;
   background-color: #fce055;
   background-image: linear-gradient(
     319deg,

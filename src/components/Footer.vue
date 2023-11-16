@@ -15,7 +15,7 @@
       <!-- Left -->
 
       <!-- Right -->
-      <div>
+      <div class="socials">
         <a
           href="https://www.instagram.com/baruch__entertainment/"
           target="_blank"
@@ -169,6 +169,13 @@ export default {
 #bottomfooter {
   background-color: #ffffff;
   background-image: linear-gradient(315deg, #ffffff 0%, #335c81 74%);
+}
+
+.socials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }
 
 p {
