@@ -41,6 +41,17 @@
           <img src="../../public/imgs/icons8-facebook.gif" />
         </a>
         <a
+          href="https://wa.me/c/13478459131"
+          target="_blank"
+          class="me-4 link-secondary"
+        >
+          <i class="fab fa-google"></i>
+          <img
+            style="width: 50px"
+            src="../../public/imgs/icons8-whatsapp (1).gif"
+          />
+        </a>
+        <a
           href="https://soundcloud.com/b-k-798727976"
           target="_blank"
           class="me-4 link-secondary"

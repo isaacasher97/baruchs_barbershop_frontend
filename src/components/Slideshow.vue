@@ -96,6 +96,17 @@ img {
   height: auto;
 }
 
+.carousel {
+  padding: 0px;
+  background-color: #fce055;
+  background-image: linear-gradient(
+    319deg,
+    #fce055 0%,
+    #256eff 37%,
+    #46237a 100%
+  );
+}
+
 iframe {
   max-width: 100%;
 }
