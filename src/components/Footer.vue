@@ -52,6 +52,17 @@
           />
         </a>
         <a
+          href="https://t.me/Baruch_Entertaimnent"
+          target="_blank"
+          class="me-4 link-secondary"
+        >
+          <i class="fab fa-google"></i>
+          <img
+            style="width: 50px"
+            src="../../public/imgs/icons8-telegram.gif"
+          />
+        </a>
+        <a
           href="https://soundcloud.com/b-k-798727976"
           target="_blank"
           class="me-4 link-secondary"
