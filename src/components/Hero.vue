@@ -186,6 +186,7 @@ window.onload = function () {
 
 .banner img {
   animation: updown 3s linear infinite;
+  width: 100%;
 }
 @keyframes updown {
   0% {
