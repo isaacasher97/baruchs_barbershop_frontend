@@ -40,6 +40,14 @@
           <i class="fab fa-google"></i>
           <img src="../../public/imgs/icons8-facebook.gif" />
         </a>
+        <a
+          href="https://soundcloud.com/b-k-798727976"
+          target="_blank"
+          class="me-4 link-secondary"
+        >
+          <i class="fab fa-google"></i>
+          <img style="width: 70px" src="../../public/imgs/sclogoanim.gif" />
+        </a>
       </div>
       <!-- Right -->
     </section>
