@@ -3,6 +3,7 @@
     <div class="hero">
       <Hero />
       <Slideshow />
+      <h2 id="featured-header">Featured Content</h2>
       <Carousel />
     </div>
     <Footer />
@@ -28,3 +29,10 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+#featured-header {
+  color: #fff;
+  margin-top: 25px;
+}
+</style>

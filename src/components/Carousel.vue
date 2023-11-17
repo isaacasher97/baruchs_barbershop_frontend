@@ -87,12 +87,20 @@ export default defineComponent({
 }
 
 .carousel {
+  border-radius: 20px;
   padding: 20px;
   background: #121212;
 }
 
 .video-title {
   color: #fff;
+}
+
+#yt-carousel {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 /* Ensure a Square Aspect Ratio */

@@ -1,5 +1,5 @@
 <template>
-  <div id="yt-carousel">
+  <div id="ss-carousel">
     <Carousel
       :items-to-show="1"
       :wrap-around="false"
@@ -114,6 +114,20 @@ export default defineComponent({
 </script>
 
 <style scoped>
+#ss-carousel {
+  border-radius: 20px;
+  padding: 20px;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #fce055;
+  background-image: linear-gradient(
+    319deg,
+    #fce055 0%,
+    #256eff 37%,
+    #46237a 100%
+  );
+}
+
 .carousel__item {
   border: 1px solid #ddd; /* Border style */
   padding: 10px; /* Padding for spacing */
@@ -123,16 +137,6 @@ export default defineComponent({
 img {
   max-width: 100%;
   height: auto;
-}
-
-.carousel {
-  background-color: #fce055;
-  background-image: linear-gradient(
-    319deg,
-    #fce055 0%,
-    #256eff 37%,
-    #46237a 100%
-  );
 }
 
 iframe {
