@@ -20,20 +20,29 @@
           <p style="color: #fff; font-weight: 700">
             Greetings, I'm Baruch Khafizov, a highly seasoned professional
             specializing in event planning, music, and DJ services, based in the
-            vibrant hub of New York City. With a distinguished reputation for
-            orchestrating truly extraordinary experiences, I specialize in
-            tailoring events, ranging from weddings to mitzvahs, with an
-            unwavering focus on providing personalized service. My expertise
-            extends beyond event execution. With a unique emphasis on musical
-            artistry and meticulous planning, I ensure seamless and memorable
-            experiences that leave a lasting impression. Whether it's crafting
-            the enchanting ambiance of a wedding or capturing the celebratory
-            spirit of a mitzvah, my commitment to professionalism and perfection
-            shines through. Choose distinction and elevate your event journey
-            with Baruch Khafizov—an unparalleled choice for those seeking
-            extraordinary and personalized experiences in the heart of New York
-            City.
+            vibrant hub of New York City.<br /><br />
+            With a distinguished reputation for orchestrating truly
+            extraordinary experiences, I specialize in tailoring events, ranging
+            from weddings to mitzvahs, with an unwavering focus on providing
+            personalized service.<br /><br />
+            My expertise extends beyond event execution. With a unique emphasis
+            on musical artistry and meticulous planning, I ensure seamless and
+            memorable experiences that leave a lasting impression.
+            <br /><br />Whether it's crafting the enchanting ambiance of a
+            wedding or capturing the celebratory spirit of a mitzvah, my
+            commitment to professionalism and perfection shines through. Choose
+            distinction and elevate your event journey with Baruch Khafizov—an
+            unparalleled choice for those seeking extraordinary and personalized
+            experiences in the heart of New York City.
           </p>
+          <button id="hero-button" style="margin: 0 auto; margin-bottom: 25px">
+            <a
+              style="color: #fff; text-decoration: none"
+              href="https://wa.me/c/13478459131"
+              target="_blank"
+              >Contact Me</a
+            >
+          </button>
         </div>
         <div
           class="col-12 col-md-6 col-xl-5 wow zoomIn"
@@ -117,7 +126,7 @@ window.onload = function () {
 };
 </script>
 
-<style>
+<style scoped>
 /************ Banner Css ************/
 .banner {
   margin-top: 0;
@@ -190,6 +199,13 @@ window.onload = function () {
   100% {
     transform: translateY(-20px);
   }
+}
+
+#hero-button {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #2d3436;
+  background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
 }
 
 /* Responsiv css */
