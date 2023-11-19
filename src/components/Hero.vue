@@ -40,7 +40,7 @@
               style="color: #fff; text-decoration: none"
               href="https://wa.me/c/13478459131"
               target="_blank"
-              >Contact Me</a
+              >Contact Us</a
             >
           </button>
         </div>
