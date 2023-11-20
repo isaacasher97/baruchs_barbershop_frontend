@@ -9,13 +9,8 @@
         >
           <br /><br />
           <h1 style="color: #fff">
-            Hi, I'm Baruch.
-            <span
-              class="txt-rotate"
-              data-period="1000"
-              data-rotate='[ "A Musician", "A DJ", "An Entertainer", "A Performer" ]'
-            ></span>
-            From NYC
+            Hello, we are Baruch Entertainment, a party and event planning
+            company From NYC
           </h1>
           <p style="color: #fff; font-weight: 700">
             Greetings, we are Baruch Entertainment, a highly seasoned
