@@ -1,17 +1,22 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <AboutBanner />
+    <AboutInfo />
     <Footer />
   </div>
 </template>
 
 <script>
 import Footer from "../components/Footer.vue";
+import AboutBanner from "../components/AboutBanner.vue";
+import AboutInfo from "../components/AboutInfo.vue";
 
 export default {
   name: "HomeView",
   components: {
     Footer,
+    AboutBanner,
+    AboutInfo,
   },
 };
 </script>
