@@ -60,7 +60,7 @@
         </div>
         <div class="carousel-item">
           <img
-            src="../../public/imgs/weddingphoto.jpg"
+            src="../../public/imgs/newweddingpic.jpg"
             class="d-block w-100"
             alt=""
           />
@@ -122,7 +122,7 @@
         </div>
         <div class="carousel-item">
           <img
-            src="../../public/imgs/singing.jpg"
+            src="../../public/imgs/weddingnewslide.jpg"
             class="d-block w-100"
             alt=""
           />

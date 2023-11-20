@@ -18,22 +18,22 @@
             From NYC
           </h1>
           <p style="color: #fff; font-weight: 700">
-            Greetings, I'm Baruch Khafizov, a highly seasoned professional
-            specializing in event planning, music, and DJ services, based in the
-            vibrant hub of New York City.<br /><br />
+            Greetings, we are Baruch Entertainment, a highly seasoned
+            professional company specializing in event planning, music and DJ
+            services, among more, based in the vibrant hub of New York City.<br /><br />
             With a distinguished reputation for orchestrating truly
-            extraordinary experiences, I specialize in tailoring events, ranging
-            from weddings to mitzvahs, with an unwavering focus on providing
-            personalized service.<br /><br />
-            My expertise extends beyond event execution. With a unique emphasis
-            on musical artistry and meticulous planning, I ensure seamless and
+            extraordinary experiences, We specialize in tailoring events,
+            ranging from weddings to bar/bat mitzvahs, with an unwavering focus
+            on providing personalized service.<br /><br />
+            Our expertise extends beyond event execution. With a unique emphasis
+            on musical artistry and meticulous planning, We ensure seamless and
             memorable experiences that leave a lasting impression.
             <br /><br />Whether it's crafting the enchanting ambiance of a
-            wedding or capturing the celebratory spirit of a mitzvah, my
+            wedding or capturing the celebratory spirit of a mitzvah, our
             commitment to professionalism and perfection shines through. Choose
-            distinction and elevate your event journey with Baruch Khafizov—an
-            unparalleled choice for those seeking extraordinary and personalized
-            experiences in the heart of New York City.
+            distinction and elevate your event journey with Baruch
+            Entertainment—an unparalleled choice for those seeking extraordinary
+            and personalized experiences in the heart of New York City.
           </p>
           <button class="bn5" style="margin: 0 auto; margin-bottom: 25px">
             <a
