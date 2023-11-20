@@ -1,6 +1,6 @@
 <template>
   <div class="title">
-    <h3>About Us</h3>
+    <h1>About Us</h1>
   </div>
   <div class="content">
     <p>
@@ -41,16 +41,17 @@ export default {
   flex-direction: column;
   padding: 20px;
 }
-h3 {
+h1 {
   text-decoration: underline;
   padding: 10px;
 }
-h3,
+h1,
 p {
   color: #fff;
 }
 p {
   font-weight: 700;
+  font-size: large;
 }
 .video-container {
   position: relative;
@@ -63,5 +64,14 @@ p {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.content {
+  background-color: #2d3436;
+  background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 20px;
+  margin-bottom: 10px;
 }
 </style>

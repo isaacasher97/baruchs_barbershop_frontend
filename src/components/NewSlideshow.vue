@@ -114,7 +114,7 @@
             <p class="animated-text">
               Turning Every Special Moment into a Timeless Celebration
             </p>
-            <a style="text-decoration: none" href="#" class="bn5"
+            <a style="text-decoration: none" href="/about/#faqs" class="bn5"
               >Frequently Asked Questions</a
             >
             <br /><br />

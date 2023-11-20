@@ -1,9 +1,9 @@
 <template>
   <nav id="topnavbar" class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"
-        ><img style="width: 250px" src="../public/imgs/baruchent_logo.jpg"
-      /></a>
+      <a class="navbar-brand" href="#">
+        <img style="width: 250px" src="../public/imgs/baruchent_logo.jpg" />
+      </a>
       <button
         class="navbar-toggler"
         type="button"
@@ -20,12 +20,27 @@
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="/">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
+          <!-- Updated "About Us" button with dropdown -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              About Us
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="/about">About Us</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="/faqs">FAQ's</a>
+              <!-- Add more dropdown items as needed -->
+            </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/about">About Us</a>
-          </li>
+          <!-- End of updated "About Us" button -->
           <li class="nav-item">
             <a class="nav-link" href="#yt-carousel">Featured Content</a>
           </li>
