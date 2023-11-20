@@ -2,6 +2,7 @@
   <div class="home">
     <div class="hero">
       <Hero />
+      <NewGallery />
       <Slideshow />
       <h2 id="featured-header">Featured Content</h2>
       <Carousel />
@@ -17,6 +18,7 @@ import Slideshow from "../components/Slideshow.vue";
 import Footer from "../components/Footer.vue";
 import Carousel from "../components/Carousel.vue";
 import Hero from "../components/Hero.vue";
+import NewGallery from "../components/NewSlideshow.vue";
 
 export default {
   name: "HomeView",
@@ -26,6 +28,7 @@ export default {
     Footer,
     Carousel,
     Hero,
+    NewGallery,
   },
 };
 </script>
