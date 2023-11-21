@@ -129,7 +129,7 @@ window.onload = function () {
 /************ Banner Css ************/
 .banner {
   margin-top: 0;
-  padding: 260px 0 100px 0;
+  padding: 10px 0 100px 0;
   background-image: url("../../public/imgs/herobgtwo.jpg");
   background-position: top center;
   background-size: cover;
@@ -301,7 +301,7 @@ window.onload = function () {
     width: 10%;
   }
   .banner {
-    padding: 200px 0 60px 0;
+    padding: 10px 0 60px 0;
   }
   .banner h1 {
     font-size: 52px;
@@ -396,7 +396,7 @@ window.onload = function () {
     padding: 14px 0;
   }
   .banner {
-    padding: 170px 0 60px 0;
+    padding: 10px 0 60px 0;
   }
   .banner h1 {
     font-size: 44px;
@@ -457,7 +457,7 @@ window.onload = function () {
     max-width: 1075px;
   }
   .banner {
-    padding: 150px 0 50px 0;
+    padding: 0px 0 50px 0;
   }
   .banner h1 {
     font-size: 36px;
@@ -579,7 +579,7 @@ window.onload = function () {
   }
   .banner {
     background-position: left;
-    padding: 100px 0 50px 0;
+    padding: 10px 0 50px 0;
   }
   .banner h1 {
     font-size: 24px;
