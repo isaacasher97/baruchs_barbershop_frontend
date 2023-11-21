@@ -9,8 +9,12 @@
         >
           <br /><br />
           <h1 style="color: #fff">
-            Hello, we are Baruch Entertainment, a party and event planning
-            company From NYC
+            Baruch Entertainment Presents:
+            <span
+              class="txt-rotate"
+              data-period="1000"
+              data-rotate='[ "Event Planning", "Live Entertainment", "Party Planning", "Live Music", "Photography", "& More!" ]'
+            ></span>
           </h1>
           <p style="color: #fff; font-weight: 700">
             Greetings, we are Baruch Entertainment, a highly seasoned
