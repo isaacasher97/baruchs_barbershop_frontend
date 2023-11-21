@@ -116,7 +116,7 @@
               <a href="/about" class="text-reset">About Us</a>
             </p>
             <p>
-              <a href="#!" class="text-reset">FAQ's</a>
+              <a href="/faqs" class="text-reset">FAQ's</a>
             </p>
             <p>
               <a href="#!" class="text-reset">Orders</a>

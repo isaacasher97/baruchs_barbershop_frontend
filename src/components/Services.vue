@@ -13,7 +13,7 @@
 
     <router-link to="/lighting" class="service">
       <div class="service-image lighting"></div>
-      <h3>Lighting and Decorations</h3>
+      <h3>Lighting + Event Decor</h3>
     </router-link>
 
     <router-link to="/special-effects" class="service">
