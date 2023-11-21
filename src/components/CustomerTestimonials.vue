@@ -58,6 +58,10 @@ export default defineComponent({
           text: "The Best performance I have ever had fully experienced was with Baruch Entertainment. I highly recommend them for your next event",
           author: "Baruchai ⭐⭐⭐⭐⭐",
         },
+        {
+          text: "Baruch Entertainment super talented the  music is awesome check it out on YouTube the music is LIT🔥 They do many different types of events super recommended!",
+          author: "Nachman Braunfeld ⭐⭐⭐⭐⭐",
+        },
         // Add more testimonials as needed
       ],
     };

@@ -87,11 +87,11 @@
               <i class="fas fa-gem me-3 text-secondary"></i>Baruch Entertainment
             </h6>
             <p>
-              Experience excellence with Baruch Khafizov—your top-tier choice
-              for event planning, music, and DJ services in New York. Elevate
-              weddings, mitzvahs, and engagements with my proven expertise.
-              Choose distinction, choose Baruch Khafizov, and let's craft
-              unforgettable moments together.
+              Experience excellence with us at Baruch Entertainment—your
+              top-tier choice for event planning, music, and DJ services in New
+              York. Elevate weddings, bar and bat mitzvahs, and engagements with
+              our teams proven expertise. Choose distinction, choose Baruch
+              Entertainment, and let's craft unforgettable moments together.
             </p>
           </div>
           <!-- Grid column -->
@@ -113,10 +113,10 @@
             <!-- Links -->
             <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
             <p>
-              <a href="#!" class="text-reset">Pricing</a>
+              <a href="/about" class="text-reset">About Us</a>
             </p>
             <p>
-              <a href="#!" class="text-reset">Settings</a>
+              <a href="#!" class="text-reset">FAQ's</a>
             </p>
             <p>
               <a href="#!" class="text-reset">Orders</a>

@@ -5,6 +5,7 @@
       <NewGallery />
       <ContactCard />
       <CustomerTestimonials />
+      <Services />
       <Slideshow />
       <h2 id="featured-header">Featured Content</h2>
       <Carousel />
@@ -21,6 +22,7 @@ import Hero from "../components/Hero.vue";
 import NewGallery from "../components/NewSlideshow.vue";
 import ContactCard from "../components/ContactCard.vue";
 import CustomerTestimonials from "../components/CustomerTestimonials.vue";
+import Services from "../components/Services.vue";
 
 export default {
   name: "HomeView",
@@ -32,6 +34,7 @@ export default {
     NewGallery,
     ContactCard,
     CustomerTestimonials,
+    Services,
   },
 };
 </script>
