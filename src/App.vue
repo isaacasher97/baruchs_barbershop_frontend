@@ -1,7 +1,7 @@
 <template>
   <nav id="topnavbar" class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="/">
         <img style="width: 250px" src="../public/imgs/baruchent_logo.jpg" />
       </a>
       <button

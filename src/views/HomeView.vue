@@ -6,7 +6,7 @@
       <ContactCard />
       <CustomerTestimonials />
       <Services />
-      <Slideshow />
+      <!-- <Slideshow /> -->
       <h2 id="featured-header">Featured Content</h2>
       <Carousel />
     </div>

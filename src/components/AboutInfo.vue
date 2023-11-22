@@ -41,6 +41,7 @@ export default {
   flex-direction: column;
   padding: 20px;
 }
+
 h1 {
   text-decoration: underline;
   padding: 10px;
@@ -57,6 +58,11 @@ p {
   position: relative;
   overflow: hidden;
   padding-top: 56.25%; /* 16:9 aspect ratio */
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
 }
 .video-container iframe {
   position: absolute;
@@ -73,5 +79,6 @@ p {
   margin: 0 auto;
   border-radius: 20px;
   margin-bottom: 10px;
+  border: 3px dashed #fff;
 }
 </style>

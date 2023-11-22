@@ -1,29 +1,32 @@
 <template>
-  <div id="card-container" class="card mb-3">
-    <div class="row g-0">
-      <div class="col-md-4">
-        <img
-          src="../../public/imgs/contact-img.svg"
-          class="img-fluid rounded-start"
-          alt=""
-        />
-      </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <!-- Use 'tel:' URI scheme to make the phone number clickable -->
-          <h5 class="card-title">
-            <a :href="getTelLink()">&#128222; (347) 845 9131</a>
-          </h5>
-          <p class="card-text">
-            Are you in search of an experienced and skilled Jewish DJ to elevate
-            your event? Our expertise spans a range of occasions, including
-            weddings, Bar Mitzvahs, Bat Mitzvahs, engagements, corporate events,
-            and beyond. Headquartered in Brooklyn, NY, we proudly extend our
-            services throughout NYC, Long Island, Connecticut, and New Jersey.
-            Entrust us with the musical ambiance, and let our professionalism
-            enhance the significance of your special moments.
-          </p>
-          <p class="card-text">Call Today!</p>
+  <div id="cntct-crd">
+    <div id="card-container" class="card mb-3">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img
+            src="../../public/imgs/contact-img.svg"
+            class="img-fluid rounded-start"
+            alt=""
+          />
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <!-- Use 'tel:' URI scheme to make the phone number clickable -->
+            <h5 class="card-title">
+              <a :href="getTelLink()">&#128222; (347) 845 9131</a>
+            </h5>
+            <p class="card-text">
+              Are you in search of an experienced and skilled Jewish DJ to
+              elevate your event? Our expertise spans a range of occasions,
+              including weddings, Bar Mitzvahs, Bat Mitzvahs, engagements,
+              corporate events, and beyond. Headquartered in Brooklyn, NY, we
+              proudly extend our services throughout NYC, Long Island,
+              Connecticut, and New Jersey. Entrust us with the musical ambiance,
+              and let our professionalism enhance the significance of your
+              special moments.
+            </p>
+            <p class="card-text">Call Today!</p>
+          </div>
         </div>
       </div>
     </div>
