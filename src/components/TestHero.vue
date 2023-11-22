@@ -66,7 +66,7 @@
 
 <script>
 export default {
-  name: "Hero",
+  name: "TestHero",
   data() {
     return {
       photos: [
