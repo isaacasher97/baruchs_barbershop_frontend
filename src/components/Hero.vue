@@ -9,7 +9,7 @@
         >
           <br /><br />
           <h1 style="color: #fff">
-            Baruch Entertainment Presents:
+            Baruch Entertainment Presents:<br />
             <span
               class="txt-rotate"
               data-period="1000"
