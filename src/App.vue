@@ -2,14 +2,16 @@
   <div id="app">
     <div id="top-banner">
       <div class="banner-left">
-        <span>Baruch Entertainment</span>
+        <span><a class="banner-anchor" href="/"> Baruch Entertainment</a></span>
         <span
-          >1 (347)-845-9131<img
+          >(347)-845-9131<img
             style="width: 20px"
             src="../public/imgs/icons8-phone.gif"
         /></span>
         <span
-          >borukhkhafizov@yahoo.com
+          ><a class="banner-anchor" href="/contactus">
+            borukhkhafizov@yahoo.com</a
+          >
           <img style="width: 20px" src="../public/imgs/icons8-gmail-logo.gif"
         /></span>
       </div>
@@ -139,6 +141,11 @@ nav a.router-link-exact-active {
   justify-content: space-between;
   padding: 10px 30px;
   font-weight: bold;
+}
+
+.banner-anchor {
+  text-decoration: none;
+  color: #fff;
 }
 
 .banner-left {
