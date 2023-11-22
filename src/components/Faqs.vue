@@ -65,9 +65,9 @@
             Baruch specializes in a range of genres, including Jewish/Israeli
             Music, Top 40’s & Remixes, Electronic Dance Music, Pop, 70’s, 80’s,
             90’s, 00’s, and an array of international music such as Russian,
-            Israeli, Bucharian, Persian, Arabic, Kavkazi, Moroccan, Chassidic,
-            and Spanish/Latin music. Flexibility is a key feature, with DJ
-            Baruch accommodating requests for other genres as well.<br /><br />
+            Israeli, Bucharian, Persian, Arabic, Kavkazi, Moroccan, & Chassidic,
+            music. Flexibility is a key feature, with DJ Baruch accommodating
+            requests for other genres as well.<br /><br />
             Should your event require a different musical theme, we are
             well-prepared to meet your preferences. Our team includes
             experienced DJs specializing in niche genres, ensuring a qualified
