@@ -1,6 +1,6 @@
 <template>
   <div id="customer-testimonials">
-    <h2 id="featured-header">All Customer Testimonials</h2>
+    <h2 id="featured-header">Customer Testimonials</h2>
     <div class="testimonials-list">
       <div
         v-for="(testimonial, index) in testimonials"
@@ -12,6 +12,13 @@
           <p class="testimonial-author">{{ testimonial.author }}</p>
         </div>
       </div>
+    </div>
+    <div class="button">
+      <button class="bn39">
+        <a style="text-decoration: none; color: white" href="/services"
+          >See All</a
+        >
+      </button>
     </div>
   </div>
 </template>
@@ -33,28 +40,8 @@ export default defineComponent({
           author: "Moshe Marashli ⭐⭐⭐⭐⭐",
         },
         {
-          text: "Baruch Entertainment is the number 1 singer in all of America he’s very professional  .",
-          author: "Yosef Eliav ⭐⭐⭐⭐⭐",
-        },
-        {
-          text: "I’ve hired Baruch Entertainemnt for my sons Brit Milah (circumcision) event. He was punctual, professional, read the crowd well & asked us for a list of songs that prefer to be played in advance. 10/10. We loved Baruch!",
-          author: "Nataniel Natan Kay ⭐⭐⭐⭐⭐",
-        },
-        {
           text: "Baruch Entertainment has become the go-to for community events. Professional, courteous & priced right. All the services from Baruch Entertainment are top-notch!",
           author: "Ronald Sassoon ⭐⭐⭐⭐⭐",
-        },
-        {
-          text: "The Best performance I have ever had fully experienced was with Baruch Entertainment. I highly recommend them for your next event",
-          author: "Baruchai ⭐⭐⭐⭐⭐",
-        },
-        {
-          text: "Baruch Entertainment super talented the  music is awesome check it out on YouTube the music is LIT🔥 They do many different types of events super recommended!",
-          author: "Nachman Braunfeld ⭐⭐⭐⭐⭐",
-        },
-        {
-          text: "Baruch Entertainment and his team are wonderful! Have seen him in action at multiple weddings and were privileged enough to have him DJ ours! An incredible night of dancing!! I definitely would recommend him to anyone who wants a fun event.",
-          author: "Yaron Bedid ⭐⭐⭐⭐⭐",
         },
         // Add more testimonials as needed
       ],
@@ -121,4 +108,42 @@ export default defineComponent({
     flex: 0 0 calc(100% - 20px);
   }
 }
+
+/* button styling  */
+.bn39 {
+  background-image: linear-gradient(135deg, #008aff, #86d472);
+  border-radius: 6px;
+  box-sizing: border-box;
+  color: #ffffff;
+  display: block;
+  height: 50px;
+  font-size: 1.4em;
+  font-weight: 600;
+  padding: 4px;
+  position: relative;
+  text-decoration: none;
+  width: 7em;
+  z-index: 2;
+  margin: 0 auto;
+}
+
+.bn39:hover {
+  color: #fff;
+}
+
+.bn39 .bn39span {
+  align-items: center;
+  background: #0e0e10;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  transition: background 0.5s ease;
+  width: 100%;
+}
+
+.bn39:hover .bn39span {
+  background: transparent;
+}
+/* button styling end  */
 </style>

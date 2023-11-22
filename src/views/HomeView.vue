@@ -4,8 +4,8 @@
       <Hero />
       <NewGallery />
       <ContactCard />
-      <CustomerTestimonials />
-      <Services />
+      <CustomerTestimonialsLimited />
+      <ServicesLimited />
       <!-- <Slideshow /> -->
       <h2 id="featured-header">Featured Content</h2>
       <Carousel />
@@ -21,8 +21,8 @@ import Carousel from "../components/Carousel.vue";
 import Hero from "../components/Hero.vue";
 import NewGallery from "../components/NewSlideshow.vue";
 import ContactCard from "../components/ContactCard.vue";
-import CustomerTestimonials from "../components/CustomerTestimonials.vue";
-import Services from "../components/Services.vue";
+import CustomerTestimonialsLimited from "../components/CustomerTestimonialsLimited.vue";
+import ServicesLimited from "../components/ServicesLimited.vue";
 
 export default {
   name: "HomeView",
@@ -33,8 +33,8 @@ export default {
     Hero,
     NewGallery,
     ContactCard,
-    CustomerTestimonials,
-    Services,
+    CustomerTestimonialsLimited,
+    ServicesLimited,
   },
 };
 </script>

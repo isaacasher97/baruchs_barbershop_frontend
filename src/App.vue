@@ -37,6 +37,10 @@
               <a class="dropdown-item" href="/about">About Us</a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="/faqs">FAQ's</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="/testimonials"
+                >Customer Testimonials</a
+              >
               <!-- Add more dropdown items as needed -->
             </div>
           </li>
@@ -44,6 +48,27 @@
           <li class="nav-item">
             <a class="nav-link" href="#yt-carousel">Featured Content</a>
           </li>
+          <!-- Updated "Services" button with dropdown -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Services
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="/services">All Services</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="/faqs">FAQ's</a>
+              <!-- Add more dropdown items as needed -->
+            </div>
+          </li>
+          <!-- End of updated "About Us" button -->
           <li class="nav-item">
             <a class="nav-link" href="/contactus">Contact Us</a>
           </li>
