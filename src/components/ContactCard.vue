@@ -9,8 +9,8 @@
             alt=""
           />
         </div>
-        <div class="col-md-8">
-          <div class="card-body">
+        <div class="col-md-8 d-flex align-items-center">
+          <div class="card-body text-center">
             <!-- Use 'tel:' URI scheme to make the phone number clickable -->
             <h5 class="card-title">
               <a :href="getTelLink()">&#128222; (347) 845 9131</a>
@@ -69,6 +69,6 @@ p {
   font-size: 2rem;
 }
 .card-text {
-  font-size: 30px;
+  font-size: 25px;
 }
 </style>
