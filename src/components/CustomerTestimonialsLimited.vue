@@ -130,6 +130,9 @@ export default defineComponent({
 .bn39:hover {
   color: #fff;
 }
+.testimonial-card:hover {
+  transform: scale(1.05);
+}
 
 .bn39 .bn39span {
   align-items: center;

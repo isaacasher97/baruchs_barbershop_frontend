@@ -90,7 +90,9 @@ export default defineComponent({
   background-color: #0beef9;
   background-image: linear-gradient(315deg, #0beef9 0%, #48a9fe 74%);
 }
-
+.testimonial-card:hover {
+  transform: scale(1.05);
+}
 .testimonial-text {
   font-size: 16px;
   margin-bottom: 10px;
