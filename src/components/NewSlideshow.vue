@@ -90,11 +90,7 @@
             <p class="animated-text">
               Transforming Ordinary Events into Joyful Celebrations
             </p>
-            <a
-              style="text-decoration: none"
-              href="https://wa.me/c/13478459131"
-              target="_blank"
-              class="bn5"
+            <a style="text-decoration: none" href="/contactus" class="bn5"
               >Contact Us</a
             >
             <br /><br />
@@ -114,7 +110,7 @@
             <p class="animated-text">
               Turning Every Special Moment into a Timeless Celebration
             </p>
-            <a style="text-decoration: none" href="/about/#faqs" class="bn5"
+            <a style="text-decoration: none" href="/faqs" class="bn5"
               >Frequently Asked Questions</a
             >
             <br /><br />
@@ -135,11 +131,7 @@
               Immerse Your Celebration in the Magic of Soulful Singing and
               Melodic Bliss
             </p>
-            <a
-              style="text-decoration: none"
-              href="https://www.youtube.com/@baruchentertainment9802/videos"
-              target="_blank"
-              class="bn5"
+            <a style="text-decoration: none" href="/featuredcontent" class="bn5"
               >View All Music</a
             >
             <br /><br />

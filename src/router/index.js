@@ -42,6 +42,14 @@ const routes = [
         /* webpackChunkName: "testimonials" */ "../views/TestimonialsView.vue"
       ),
   },
+  {
+    path: "/featuredcontent",
+    name: "featuredcontent",
+    component: () =>
+      import(
+        /* webpackChunkName: "featuredcontent" */ "../views/FeaturedContentView.vue"
+      ),
+  },
 ];
 
 const router = createRouter({

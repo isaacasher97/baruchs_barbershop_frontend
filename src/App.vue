@@ -68,7 +68,7 @@
           </li>
           <!-- End of updated "Services" button -->
           <li class="nav-item">
-            <a class="nav-link" href="#yt-carousel">Featured Content</a>
+            <a class="nav-link" href="/featuredcontent">Featured Content</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/contactus">Contact Us</a>

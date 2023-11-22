@@ -118,12 +118,18 @@
             <p>
               <a href="/faqs" class="text-reset">FAQ's</a>
             </p>
-            <p>
-              <a href="/contactus" class="text-reset">Contact Us</a>
-            </p>
 
             <p>
-              <a href="#!" class="text-reset">Help</a>
+              <a href="/testimonials" class="text-reset">Testimonials</a>
+            </p>
+            <p>
+              <a href="/services" class="text-reset">Services</a>
+            </p>
+            <p>
+              <a href="/featuredcontent" class="text-reset">Featured Content</a>
+            </p>
+            <p>
+              <a href="/contactus" class="text-reset">Contact Us</a>
             </p>
           </div>
           <!-- Grid column -->

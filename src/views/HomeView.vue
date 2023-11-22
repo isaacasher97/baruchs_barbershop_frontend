@@ -8,7 +8,7 @@
       <ServicesLimited />
       <!-- <Slideshow /> -->
 
-      <Carousel />
+      <CarouselLimited />
     </div>
     <Footer />
   </div>
@@ -17,7 +17,7 @@
 <script>
 import Slideshow from "../components/Slideshow.vue";
 import Footer from "../components/Footer.vue";
-import Carousel from "../components/Carousel.vue";
+import CarouselLimited from "../components/CarouselLimited.vue";
 import Hero from "../components/Hero.vue";
 import NewGallery from "../components/NewSlideshow.vue";
 import ContactCard from "../components/ContactCard.vue";
@@ -29,7 +29,7 @@ export default {
   components: {
     Slideshow,
     Footer,
-    Carousel,
+    CarouselLimited,
     Hero,
     NewGallery,
     ContactCard,
