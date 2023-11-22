@@ -1,5 +1,5 @@
 <template>
-  <h2 id="featured-header">Services</h2>
+  <h2 id="featured-header">All Services</h2>
   <div class="services-container">
     <router-link to="/catering" class="service">
       <div class="service-image catering"></div>

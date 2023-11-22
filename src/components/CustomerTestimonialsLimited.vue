@@ -15,7 +15,7 @@
     </div>
     <div class="button">
       <button class="bn39">
-        <a style="text-decoration: none; color: white" href="/services"
+        <a style="text-decoration: none; color: white" href="/testimonials"
           >See All</a
         >
       </button>

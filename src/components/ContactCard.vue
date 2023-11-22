@@ -65,7 +65,9 @@ p {
   color: #fff;
   font-weight: 700;
 }
-
+.card-title {
+  font-size: 2rem;
+}
 .card-text {
   font-size: 30px;
 }

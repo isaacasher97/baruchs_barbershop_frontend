@@ -1,43 +1,28 @@
 <template>
   <div id="yt-carousel">
-    <Carousel :items-to-show="2.5" :wrap-around="true">
-      <Slide v-for="(video, index) in videos" :key="index">
-        <div class="carousel__item">
-          <div class="video-container">
-            <iframe
-              width="100%"
-              height="100%"
-              :src="'https://www.youtube.com/embed/' + video.videoId"
-              frameborder="0"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <div class="video-details">
-            <div class="video-title">{{ video.title }}</div>
-          </div>
+    <h2 id="featured-header">Featured Content</h2>
+    <div class="videos-list">
+      <div v-for="(video, index) in videos" :key="index" class="video-item">
+        <div class="video-container">
+          <iframe
+            width="100%"
+            height="100%"
+            :src="'https://www.youtube.com/embed/' + video.videoId"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
         </div>
-      </Slide>
-
-      <template #addons>
-        <Navigation />
-      </template>
-    </Carousel>
+        <div class="video-details">
+          <div class="video-title">{{ video.title }}</div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-import { defineComponent } from "vue";
-import { Carousel, Navigation, Slide } from "vue3-carousel";
-
-import "vue3-carousel/dist/carousel.css";
-
-export default defineComponent({
-  name: "WrapAround",
-  components: {
-    Carousel,
-    Slide,
-    Navigation,
-  },
+export default {
+  name: "YouTubeCarousel",
   data() {
     return {
       videos: [
@@ -68,46 +53,40 @@ export default defineComponent({
       ],
     };
   },
-});
+};
 </script>
 
 <style scoped>
-.carousel__item {
-  border: 1px solid #ddd; /* Border style */
-  padding: 10px; /* Padding for spacing */
-  text-align: center;
-}
-
-.video-details {
-  margin-top: 10px; /* Margin between video and title */
-}
-
-.video-title {
-  font-weight: bold;
-}
-
-.carousel {
-  border-radius: 20px;
-  padding: 20px;
-  background: #121212;
-}
-
-.video-title {
+#featured-header {
   color: #fff;
+  margin-bottom: 20px;
 }
-
 #yt-carousel {
-  width: 95%;
+  max-width: 100%;
   margin: 0 auto;
-  margin-top: 25px;
+  padding: 60px;
+  border-radius: 20px;
   margin-bottom: 25px;
+  background-color: #2d3436;
+  background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+}
+.videos-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-/* Ensure a Square Aspect Ratio */
+.video-item {
+  flex: 0 0 calc(50% - 20px);
+  margin: 10px;
+}
+
 .video-container {
   position: relative;
   width: 100%;
   padding-top: 100%; /* 1:1 Aspect Ratio (square) */
+  border: 3px dashed #fff;
+  border-radius: 20px;
 }
 
 iframe {
@@ -116,13 +95,30 @@ iframe {
   left: 0;
   width: 100%;
   height: 100%;
+  border-radius: 20px;
+}
+
+.video-details {
+  margin-top: 10px; /* Margin between video and title */
+}
+
+.video-title {
+  font-weight: bold;
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+#yt-carousel {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 /* Responsive Styles for Screens with a Max Width of 450px */
 @media only screen and (max-width: 450px) {
-  .carousel__item {
-    margin: 0 5px; /* Adjust margin for smaller screens */
-    padding: 5px; /* Adjust padding for smaller screens */
+  .video-item {
+    flex: 0 0 calc(100% - 20px);
   }
   .video-details {
     margin-top: 5px; /* Adjust margin between video and title for smaller screens */

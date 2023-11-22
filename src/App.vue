@@ -45,9 +45,7 @@
             </div>
           </li>
           <!-- End of updated "About Us" button -->
-          <li class="nav-item">
-            <a class="nav-link" href="#yt-carousel">Featured Content</a>
-          </li>
+
           <!-- Updated "Services" button with dropdown -->
           <li class="nav-item dropdown">
             <a
@@ -68,7 +66,10 @@
               <!-- Add more dropdown items as needed -->
             </div>
           </li>
-          <!-- End of updated "About Us" button -->
+          <!-- End of updated "Services" button -->
+          <li class="nav-item">
+            <a class="nav-link" href="#yt-carousel">Featured Content</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="/contactus">Contact Us</a>
           </li>
