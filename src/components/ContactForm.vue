@@ -2,7 +2,13 @@
   <div id="contact-form">
     <form action="https://formspree.io/f/xpzgegdy" method="POST">
       <fieldset>
-        <legend>Reach Us Directly</legend>
+        <legend>
+          Reach Us Directly
+          <img
+            style="width: 40px"
+            src="../../public/imgs/icons8-phone-message.gif"
+          />
+        </legend>
         <div class="input-container">
           <label>
             First Name:<br />
