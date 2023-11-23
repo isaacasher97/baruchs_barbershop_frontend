@@ -1,5 +1,6 @@
 <template>
   <CateringBanner />
+  <Catering />
   <ContactFormTwo />
   <Footer />
 </template>
@@ -8,6 +9,7 @@
 import CateringBanner from "../components/CateringBanner.vue";
 import ContactFormTwo from "../components/ContactFormTwo.vue";
 import Footer from "../components/Footer.vue";
+import Catering from "../components/Catering.vue";
 
 export default {
   name: "HomeView",
@@ -15,6 +17,7 @@ export default {
     CateringBanner,
     ContactFormTwo,
     Footer,
+    Catering,
   },
 };
 </script>
