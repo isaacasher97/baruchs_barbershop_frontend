@@ -82,7 +82,31 @@
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="/services">All Services</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="/faqs">FAQ's</a>
+                <a class="dropdown-item" href="/services/catering">Catering</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="/services/chazzan-singers"
+                  >Chazzan & Singers</a
+                >
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="/services/djs-entertainers"
+                  >DJs & Entertainers</a
+                >
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="/services/lighting-decor"
+                  >Lighting & Decor</a
+                >
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="/services/live-music-orchestra"
+                  >Live Music & Orchestra</a
+                >
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="/services/photo-video"
+                  >Photo & Video</a
+                >
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="/services/special-effects"
+                  >Special Effects</a
+                >
                 <!-- Add more dropdown items as needed -->
               </div>
             </li>

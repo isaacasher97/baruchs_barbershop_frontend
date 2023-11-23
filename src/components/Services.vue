@@ -1,37 +1,37 @@
 <template>
   <h2 id="featured-header">All Services</h2>
   <div class="services-container">
-    <router-link to="/catering" class="service">
+    <router-link to="/services/catering" class="service">
       <div class="service-image catering"></div>
       <h3>Catering</h3>
     </router-link>
 
-    <router-link to="/photography" class="service">
+    <router-link to="/services/photo-video" class="service">
       <div class="service-image photography"></div>
       <h3>Photo & Video</h3>
     </router-link>
 
-    <router-link to="/lighting" class="service">
+    <router-link to="/services/lighting-decor" class="service">
       <div class="service-image lighting"></div>
       <h3>Lighting + Event Decor</h3>
     </router-link>
 
-    <router-link to="/special-effects" class="service">
+    <router-link to="/services/special-effects" class="service">
       <div class="service-image special-effects"></div>
       <h3>Special Effects</h3>
     </router-link>
 
-    <router-link to="/live-music" class="service">
+    <router-link to="/services/live-music-orchestra" class="service">
       <div class="service-image live-music"></div>
       <h3>Live Music & Orchestra</h3>
     </router-link>
 
-    <router-link to="/djs-entertainers" class="service">
+    <router-link to="/services/djs-entertainers" class="service">
       <div class="service-image djs-entertainers"></div>
       <h3>DJ's + Entertainers</h3>
     </router-link>
 
-    <router-link to="/chazzan-singers" class="service">
+    <router-link to="/services/chazzan-singers" class="service">
       <div class="service-image chazzan-singers"></div>
       <h3>Chazzan + Singers</h3>
     </router-link>

@@ -2,22 +2,22 @@
   <div id="services-container">
     <h2 id="featured-header">Services</h2>
     <div class="services-list">
-      <router-link to="/djs-entertainers" class="service">
+      <router-link to="/services/djs-entertainers" class="service">
         <div class="service-image djs-entertainers"></div>
         <h3>DJ's & Entertainers</h3>
       </router-link>
 
-      <router-link to="/photography" class="service">
+      <router-link to="/services/photo-video" class="service">
         <div class="service-image photography"></div>
         <h3>Photo & Video</h3>
       </router-link>
 
-      <router-link to="/live-music" class="service">
+      <router-link to="/services/live-music-orchestra" class="service">
         <div class="service-image live-music"></div>
         <h3>Live Music & Orchestra</h3>
       </router-link>
 
-      <router-link to="/lighting" class="service">
+      <router-link to="/services/lighting-decor" class="service">
         <div class="service-image lighting"></div>
         <h3>Lighting & Event Decor</h3>
       </router-link>

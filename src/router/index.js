@@ -50,6 +50,56 @@ const routes = [
         /* webpackChunkName: "featuredcontent" */ "../views/FeaturedContentView.vue"
       ),
   },
+  {
+    path: "/services/catering",
+    name: "catering",
+    component: () =>
+      import(/* webpackChunkName: "catering" */ "../views/CateringView.vue"),
+  },
+  {
+    path: "/services/photo-video",
+    name: "photovideo",
+    component: () =>
+      import(
+        /* webpackChunkName: "photovideo" */ "../views/PhotoVideoView.vue"
+      ),
+  },
+  {
+    path: "/services/lighting-decor",
+    name: "lightingdecor",
+    component: () =>
+      import(
+        /* webpackChunkName: "lightingdecor" */ "../views/LightingEventView.vue"
+      ),
+  },
+  {
+    path: "/services/special-effects",
+    name: "specialeffects",
+    component: () =>
+      import(
+        /* webpackChunkName: "specialeffects" */ "../views/SpecialEffectsView.vue"
+      ),
+  },
+  {
+    path: "/services/live-music-orchestra",
+    name: "livemusic",
+    component: () =>
+      import(/* webpackChunkName: "livemusic" */ "../views/LiveMusicView.vue"),
+  },
+  {
+    path: "/services/djs-entertainers",
+    name: "djsentertainers",
+    component: () =>
+      import(/* webpackChunkName: "djsentertainersc" */ "../views/DjsView.vue"),
+  },
+  {
+    path: "/services/chazzan-singers",
+    name: "chazzansingers",
+    component: () =>
+      import(
+        /* webpackChunkName: "chazzansingers" */ "../views/ChazzanView.vue"
+      ),
+  },
 ];
 
 const router = createRouter({
