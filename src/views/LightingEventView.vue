@@ -1,5 +1,6 @@
 <template>
   <LightingEventBanner />
+  <Lighting />
   <ContactFormTwo />
   <Footer />
 </template>
@@ -8,6 +9,7 @@
 import LightingEventBanner from "../components/LightingEventBanner.vue";
 import ContactFormTwo from "../components/ContactFormTwo.vue";
 import Footer from "../components/Footer.vue";
+import Lighting from "../components/Lighting.vue";
 
 export default {
   name: "HomeView",
@@ -15,6 +17,7 @@ export default {
     LightingEventBanner,
     ContactFormTwo,
     Footer,
+    Lighting,
   },
 };
 </script>
