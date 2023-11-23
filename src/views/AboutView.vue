@@ -2,6 +2,7 @@
   <div class="about">
     <AboutBanner />
     <AboutInfo />
+    <ContactFormTwo />
     <Footer />
   </div>
 </template>
@@ -10,6 +11,7 @@
 import Footer from "../components/Footer.vue";
 import AboutBanner from "../components/AboutBanner.vue";
 import AboutInfo from "../components/AboutInfo.vue";
+import ContactFormTwo from "../components/ContactFormTwo.vue";
 
 export default {
   name: "HomeView",
@@ -17,6 +19,7 @@ export default {
     Footer,
     AboutBanner,
     AboutInfo,
+    ContactFormTwo,
   },
 };
 </script>

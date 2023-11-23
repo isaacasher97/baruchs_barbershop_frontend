@@ -1,6 +1,7 @@
 <template>
   <FaqsBanner />
   <Faqs />
+  <ContactFormTwo />
   <Footer />
 </template>
 
@@ -8,6 +9,7 @@
 import FaqsBanner from "../components/FaqsBanner.vue";
 import Footer from "../components/Footer.vue";
 import Faqs from "../components/Faqs.vue";
+import ContactFormTwo from "../components/ContactFormTwo.vue";
 
 export default {
   name: "HomeView",
@@ -15,6 +17,7 @@ export default {
     FaqsBanner,
     Footer,
     Faqs,
+    ContactFormTwo,
   },
 };
 </script>

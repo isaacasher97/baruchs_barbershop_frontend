@@ -12,27 +12,42 @@
         <div class="input-container">
           <label>
             First Name:<br />
-            <input type="text" name="firstName" placeholder="First Name" />
+            <input
+              type="text"
+              name="firstName"
+              placeholder="First Name"
+              required
+            />
           </label>
 
           <label>
             Last Name:<br />
-            <input type="text" name="lastName" placeholder="Last Name" />
+            <input
+              type="text"
+              name="lastName"
+              placeholder="Last Name"
+              required
+            />
           </label>
 
           <label>
             Your email:<br />
-            <input type="email" name="email" placeholder="Enter your e-mail" />
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter your e-mail"
+              required
+            />
           </label>
 
           <label>
             City:<br />
-            <input type="text" name="city" placeholder="City" />
+            <input type="text" name="city" placeholder="City" required />
           </label>
 
           <label>
             State:<br />
-            <input type="text" name="state" placeholder="State" />
+            <input type="text" name="state" placeholder="State" required />
           </label>
 
           <label>

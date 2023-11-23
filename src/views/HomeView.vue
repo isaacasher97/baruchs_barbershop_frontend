@@ -7,8 +7,8 @@
       <CustomerTestimonialsLimited />
       <ServicesLimited />
       <!-- <Slideshow /> -->
-
       <CarouselLimited />
+      <ContactFormTwo />
     </div>
     <Footer />
   </div>
@@ -23,6 +23,7 @@ import NewGallery from "../components/NewSlideshow.vue";
 import ContactCard from "../components/ContactCard.vue";
 import CustomerTestimonialsLimited from "../components/CustomerTestimonialsLimited.vue";
 import ServicesLimited from "../components/ServicesLimited.vue";
+import ContactFormTwo from "../components/ContactFormTwo.vue";
 
 export default {
   name: "HomeView",
@@ -35,6 +36,7 @@ export default {
     ContactCard,
     CustomerTestimonialsLimited,
     ServicesLimited,
+    ContactFormTwo,
   },
 };
 </script>
