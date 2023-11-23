@@ -118,14 +118,13 @@
         </div>
         <div class="carousel-item">
           <img
-            src="../../public/imgs/weddingnewslide.jpg"
+            src="../../public/imgs/mrandmrs-image.jpg"
             class="d-block w-100"
             alt=""
           />
           <div class="carousel-caption animate-slide hidden-xs">
             <h1 class="animated-text">
-              Harmony in Every Note: Elevate Your Event with Enchanting Vocal
-              Performances
+              Harmonize in Every Note with Enchanting Vocal Performances
             </h1>
             <p class="animated-text">
               Immerse Your Celebration in the Magic of Soulful Singing and
