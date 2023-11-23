@@ -9,7 +9,7 @@
 
       <router-link to="/photography" class="service">
         <div class="service-image photography"></div>
-        <h3>Photography & Videography</h3>
+        <h3>Photo & Video</h3>
       </router-link>
 
       <router-link to="/live-music" class="service">
