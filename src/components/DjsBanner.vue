@@ -2,11 +2,11 @@
   <div class="card bg-dark text-white">
     <img src="../../public/imgs/bannerimgdupe.jpg" class="card-img" alt="" />
     <div class="card-img-overlay">
-      <h4 class="card-title">DJs & Entertainers</h4>
+      <h4 class="card-title">DJs/Entertainers</h4>
       <div class="links">
         <a href="/">Home</a>
         <a href="/services"> > Services</a>
-        <a href="#"> > DJs/Entertainers</a>
+        <a href="#"> > DJs</a>
       </div>
     </div>
   </div>
