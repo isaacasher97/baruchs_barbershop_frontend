@@ -85,7 +85,7 @@
                 <a class="dropdown-item" href="/services/catering">Catering</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="/services/chazzan-singers"
-                  >Chazzan & Singers</a
+                  >Chazzan Services</a
                 >
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="/services/djs-entertainers"

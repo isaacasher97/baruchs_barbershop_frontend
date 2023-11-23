@@ -2,11 +2,11 @@
   <div class="card bg-dark text-white">
     <img src="../../public/imgs/bannerimgdupe.jpg" class="card-img" alt="" />
     <div class="card-img-overlay">
-      <h4 class="card-title">Chazzan & Singers</h4>
+      <h4 class="card-title">Chazzans</h4>
       <div class="links">
         <a href="/">Home</a>
         <a href="/services"> > Services</a>
-        <a href="#"> > Chazzan/Singers</a>
+        <a href="#"> > Chazzans</a>
       </div>
     </div>
   </div>

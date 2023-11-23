@@ -13,7 +13,7 @@
 
     <router-link to="/services/lighting-decor" class="service">
       <div class="service-image lighting"></div>
-      <h3>Lighting + Event Decor</h3>
+      <h3>Lighting & Event Decor</h3>
     </router-link>
 
     <router-link to="/services/special-effects" class="service">
@@ -28,12 +28,12 @@
 
     <router-link to="/services/djs-entertainers" class="service">
       <div class="service-image djs-entertainers"></div>
-      <h3>DJ's + Entertainers</h3>
+      <h3>DJ's & Entertainers</h3>
     </router-link>
 
     <router-link to="/services/chazzan-singers" class="service">
       <div class="service-image chazzan-singers"></div>
-      <h3>Chazzan + Singers</h3>
+      <h3>Chazzan Services</h3>
     </router-link>
   </div>
 </template>
