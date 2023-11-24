@@ -1,6 +1,6 @@
 <template>
   <div class="catering-container">
-    <h2 id="featured-header">DJs & Entertainers</h2>
+    <h2 id="featured-header">Event Decor</h2>
     <div v-for="(service, index) in services" :key="index">
       <div class="services-card" @click="toggleInfo(index)">
         <img :src="service.image" :alt="service.name" class="service-image" />
@@ -27,45 +27,24 @@ export default {
     return {
       services: [
         {
-          name: "DJ Services",
-          image: "https://i.imgur.com/tyuksU1.jpg",
+          name: "Led Panel Stage ",
+          image: "https://i.imgur.com/VhZ6yJGh.jpg",
           description:
-            "Immerse your event in a mesmerizing sonic journey with our expert DJ services. Beyond curating playlists that perfectly match your theme and audience tastes, our skilled DJs seamlessly transition into the role of Master of Ceremonies. With charisma and precision, they handle announcements and guide the flow of your celebration. Adding an interactive touch, our DJs engage the crowd with captivating activities, ensuring an event that is not just heard but experienced. Trust us to create a seamless, vibrant, and unforgettable celebration that resonates with your vision and leaves a lasting impression on all attendees.",
+            "Utilize stages in diverse ways, such as providing a platform for the DJ, dancers, guests' head table, and more. Our stages are designed to impart a premium aesthetic, enhanced by embedded LED lights that contribute to a visually captivating and dynamic display, adding a rich eye-candy element to the overall atmosphere.",
           price: "Contact Us",
         },
         {
-          name: "Instrument Players",
-          image: "https://i.imgur.com/6USBvhb.jpg",
+          name: "Dancefloor",
+          image: "https://i.imgur.com/0Cp1lu5h.png",
           description:
-            "Elevate the ambiance of your event by introducing skilled and interactive instrumentalists to the stage, imparting a captivating rhythm to the dance floor. Our roster exclusively features top-tier performers, including drummers, darbuka/doira players, saxophonists, keyboardists, violinists, and vocalists. The fusion of live instruments and a DJ ensures a sophisticated, dynamic, and sensational musical experience. Whether showcasing solo performances during the cocktail hour or the chuppa ceremony, or providing accompaniment in the main room, our professional instrumentalists guarantee a refined and memorable musical atmosphere.",
+            "Incorporating a dance floor into your event design creates a specific ambiance that naturally attracts guests. While dance floors can serve as decorative enhancements in some instances, they are deemed indispensable in others. For venues characterized by wall-to-wall carpeting or outdoor settings with grass or concrete surfaces, a dance floor becomes a practical solution for congregating people and encouraging engagement on the dance floor. It acts as a pivotal element for ensuring a lively and inviting atmosphere, particularly in situations where the existing flooring may not be conducive to spontaneous dancing.",
           price: "Contact Us",
         },
         {
-          name: "MC/Host",
-          image: "https://i.imgur.com/30ltb2f.jpg",
+          name: "Pipe & Drape",
+          image: "https://i.imgur.com/BIUt2eph.jpg",
           description:
-            "During highly formal occasions, it is imperative to appoint a proficient individual behind the microphone to handle announcements, ensure the seamless and organized flow of the event, and even engage and energize the audience. The inclusion of a Master of Ceremonies (MC) varies across cultures, with some necessitating this role while others do not. Our services encompass a diverse array of MCs, including bilingual presenters, selected based on the specific requirements and stylistic preferences associated with the event in question",
-          price: "Contact Us",
-        },
-        {
-          name: "Chuppah/Ceremony Singer",
-          image: "https://i.imgur.com/4kFYJ4z.jpg",
-          description:
-            "Evoke the emotional essence of the chuppah ceremony through a captivating performance featuring a vocalist and a skilled keyboard player. This collaborative musical arrangement stands as the optimal choice for enhancing the ceremonial atmosphere. Our curated selection of talent includes individuals proficient in both Sephardic and Ashkenazi styles to cater to diverse preferences. The keyboard player, adept at utilizing various virtual instruments, complements the singer, ensuring a comprehensive and harmonious performance that resonates with the significance of the occasion.",
-          price: "Contact Us",
-        },
-        {
-          name: "Party Motivator",
-          image: "https://i.imgur.com/PYnlNna.jpg",
-          description:
-            "Enhance the entertainment experience by enlisting the expertise of a Party Motivator who actively engages and interacts with guests. This specialized motivator is particularly indispensable for events primarily attended by children and teenagers, such as Bar/Bat Mitzvahs. Their proficiency lies in cultivating a lively atmosphere through crowd hyping, dance guidance, interactive game facilitation, and exuding contagious energy on the dance floor. The presence of a Party Motivator is virtually a necessity for ensuring a spirited and enjoyable ambiance, especially tailored to the preferences of younger audiences.",
-          price: "Contact Us",
-        },
-        {
-          name: "Dancers",
-          image: "https://i.imgur.com/GFZOBRe.jpg",
-          description:
-            "Augmenting the main MC with side dancers proves to be a highly effective strategy in maintaining an energetic and vibrant event atmosphere. These side dancers not only elevate the overall energy but also actively participate in leading dances alongside the MC. Distinguished by their proficiency, our side dancers are also skilled breakdancers capable of delivering a captivating performance. The inclusion of professional breakdancers offers a unique and memorable element to the event, providing guests with the opportunity to witness an engaging and unexpected showcase. Elevate your event by introducing side dancers who seamlessly complement the main MC, creating an unforgettable experience for all attendees.",
+            "Pipes and drapery configurations stand as a timeless and widely embraced method for transforming the visual aesthetics of a room, with versatile applications such as creating a Mechitza and beyond. The possibilities are extensive, allowing for a customized alteration of the space to suit various purposes. Our inventory includes drapes in both white and black, providing a refined and classic palette to seamlessly integrate with diverse event themes and preferences.",
           price: "Contact Us",
         },
 
