@@ -71,8 +71,15 @@ export default {
     return {
       photos: [
         "https://i.imgur.com/jUseIhV.jpg",
+        "https://i.imgur.com/4kFYJ4z.jpg",
         "https://i.imgur.com/k3c5rJ6.jpg",
+        "https://i.imgur.com/wS5j2Dw.jpg",
+        "https://i.imgur.com/IAK1YUM.jpg",
+        "https://i.imgur.com/aGFwfYT.jpg",
+        "https://i.imgur.com/bvvJejg.jpg",
+        "https://i.imgur.com/DOK9hjl.jpg",
         "https://i.imgur.com/ktepr4Y.jpg",
+        "https://i.imgur.com/4y7zwkc.jpg",
         // Add more photo URLs as needed
       ],
       currentPhotoIndex: 0,
@@ -85,7 +92,7 @@ export default {
     },
   },
   mounted() {
-    setInterval(this.changePhoto, 5000); // Change photo every 5 seconds
+    setInterval(this.changePhoto, 3000); // Change photo every 5 seconds
   },
 };
 </script>
