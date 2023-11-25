@@ -1,5 +1,6 @@
 <template>
   <LiveMusicBanner />
+  <LiveMusic />
   <ContactFormTwo />
   <Footer />
 </template>
@@ -8,6 +9,7 @@
 import LiveMusicBanner from "../components/LiveMusicBanner.vue";
 import ContactFormTwo from "../components/ContactFormTwo.vue";
 import Footer from "../components/Footer.vue";
+import LiveMusic from "../components/LiveMusic.vue";
 
 export default {
   name: "HomeView",
@@ -15,6 +17,7 @@ export default {
     LiveMusicBanner,
     ContactFormTwo,
     Footer,
+    LiveMusic,
   },
 };
 </script>

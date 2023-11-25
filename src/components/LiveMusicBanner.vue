@@ -6,7 +6,7 @@
       <div class="links">
         <a href="/">Home</a>
         <a href="/services"> > Services</a>
-        <a href="#"> > Live Music/Orchestra</a>
+        <a href="#"> > Live Music</a>
       </div>
     </div>
   </div>

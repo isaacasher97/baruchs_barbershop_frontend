@@ -56,6 +56,10 @@ export default defineComponent({
           text: "Baruch Entertainment and his team are wonderful! Have seen him in action at multiple weddings and were privileged enough to have him DJ ours! An incredible night of dancing!! I definitely would recommend him to anyone who wants a fun event.",
           author: "Yaron Bedid ⭐⭐⭐⭐⭐",
         },
+        {
+          text: "Best DJ ever Baruch is number one he know how to get it done call him and he will show it all to everyone.",
+          author: "Zevulun ⭐⭐⭐⭐⭐",
+        },
         // Add more testimonials as needed
       ],
     };
