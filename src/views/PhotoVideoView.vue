@@ -1,5 +1,6 @@
 <template>
   <PhotoVideoBanner />
+  <PhotoVideo />
   <ContactFormTwo />
   <Footer />
 </template>
@@ -8,6 +9,7 @@
 import PhotoVideoBanner from "../components/PhotoVideoBanner.vue";
 import ContactFormTwo from "../components/ContactFormTwo.vue";
 import Footer from "../components/Footer.vue";
+import PhotoVideo from "../components/PhotoVideo.vue";
 
 export default {
   name: "HomeView",
@@ -15,6 +17,7 @@ export default {
     PhotoVideoBanner,
     ContactFormTwo,
     Footer,
+    PhotoVideo,
   },
 };
 </script>
