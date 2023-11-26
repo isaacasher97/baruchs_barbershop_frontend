@@ -12,7 +12,6 @@
     </div>
     <Footer />
   </div>
-  <Analytics />
 </template>
 
 <script>
@@ -25,7 +24,6 @@ import ContactCard from "../components/ContactCard.vue";
 import CustomerTestimonialsLimited from "../components/CustomerTestimonialsLimited.vue";
 import ServicesLimited from "../components/ServicesLimited.vue";
 import ContactFormTwo from "../components/ContactFormTwo.vue";
-import Analytics from "@vercel/analytics/react";
 
 export default {
   name: "HomeView",
@@ -39,7 +37,6 @@ export default {
     CustomerTestimonialsLimited,
     ServicesLimited,
     ContactFormTwo,
-    Analytics,
   },
 };
 </script>
