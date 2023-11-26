@@ -122,13 +122,8 @@
       </div>
     </nav>
     <router-view />
-    <Analytics />
   </div>
 </template>
-
-<script>
-import { Analytics } from "@vercel/analytics/react";
-</script>
 
 <style>
 #app {
