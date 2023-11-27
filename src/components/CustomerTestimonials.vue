@@ -60,6 +60,10 @@ export default defineComponent({
           text: "Best DJ ever Baruch is number one he know how to get it done call him and he will show it all to everyone.",
           author: "Zevulun ⭐⭐⭐⭐⭐",
         },
+        {
+          text: "Baruch Entertainment rocks the house with killer DJ skills and an amazing voice. The mix of tracks keeps the energy high, and Baruch's stage presence amps up the party vibe. It's not just entertainment; it's a guaranteed good time you won't forget.",
+          author: "Sam Munkes ⭐⭐⭐⭐⭐",
+        },
         // Add more testimonials as needed
       ],
     };
