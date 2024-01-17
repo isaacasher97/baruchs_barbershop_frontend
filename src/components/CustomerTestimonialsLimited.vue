@@ -1,24 +1,5 @@
 <template>
   <div id="customer-testimonials">
-    <!-- TrustBox widget - Review Collector -->
-    <div
-      class="trustpilot-widget"
-      data-locale="en-US"
-      data-template-id="56278e9abfbbba0bdcd568bc"
-      data-businessunit-id="657361b235c51e659f729812"
-      data-style-height="52px"
-      data-style-width="100%"
-    >
-      <a
-        href="https://www.trustpilot.com/review/baruchentertainment.com"
-        target="_blank"
-        rel="noopener"
-        ><img
-          style="width: 200px"
-          src="https://support.trustpilot.com/hc/article_attachments/360022601899"
-      /></a>
-    </div>
-    <!-- End TrustBox widget -->
     <h2 id="featured-header">Customer Testimonials</h2>
 
     <div class="testimonials-list">
