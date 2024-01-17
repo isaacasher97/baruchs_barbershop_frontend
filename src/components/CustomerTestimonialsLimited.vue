@@ -1,6 +1,26 @@
 <template>
   <div id="customer-testimonials">
+    <!-- TrustBox widget - Review Collector -->
+    <div
+      class="trustpilot-widget"
+      data-locale="en-US"
+      data-template-id="56278e9abfbbba0bdcd568bc"
+      data-businessunit-id="657361b235c51e659f729812"
+      data-style-height="52px"
+      data-style-width="100%"
+    >
+      <a
+        href="https://www.trustpilot.com/review/baruchentertainment.com"
+        target="_blank"
+        rel="noopener"
+        ><img
+          style="width: 200px"
+          src="https://support.trustpilot.com/hc/article_attachments/360022601899"
+      /></a>
+    </div>
+    <!-- End TrustBox widget -->
     <h2 id="featured-header">Customer Testimonials</h2>
+
     <div class="testimonials-list">
       <div
         v-for="(testimonial, index) in testimonials"
@@ -32,8 +52,8 @@ export default defineComponent({
     return {
       testimonials: [
         {
-          text: "Baruch Entertainment is an amazingly talented performer who knows how to engage, motivate, and uplift an audience. I have always enjoyed listening and watching him perform. I highly recommend him!",
-          author: "Donny Lowy ⭐⭐⭐⭐⭐",
+          text: "Dj Baruch was amazing entertainer at our Sisters Outreach event. He sings live songs, he is upbeat and good hearted person. We appreciate!",
+          author: "Milana Amramova ⭐⭐⭐⭐⭐",
         },
         {
           text: "Baruch Entertainment is the best DJ singer ever, with great music and service at the best price. I have used him before for parties, and he always delivers excellence.",
