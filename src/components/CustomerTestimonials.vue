@@ -1,5 +1,14 @@
 <template>
   <div id="customer-testimonials">
+    <a
+      href="https://www.trustpilot.com/review/baruchentertainment.com"
+      target="_blank"
+    >
+      <img
+        src="https://support.trustpilot.com/hc/article_attachments/360022601899"
+        style="width: 200px"
+      />
+    </a>
     <h2 id="featured-header">All Customer Testimonials</h2>
     <div class="testimonials-list">
       <div
