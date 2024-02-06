@@ -27,6 +27,10 @@ export default {
     return {
       videos: [
         {
+          videoId: "nXH4M7h6sx4",
+          title: "Baruch Ent - עם ישראל חי Cover",
+        },
+        {
           videoId: "RYZ_O__f148",
           title: "Baruch Ent - Hava Nagilah Cover",
         },
