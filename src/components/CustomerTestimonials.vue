@@ -77,6 +77,10 @@ export default defineComponent({
           text: "Dj Baruch was amazing entertainer at our Sisters Outreach event. He sings live songs, he is upbeat and good hearted person. We appreciate!Milana Amramova",
           author: "Milana Amramova ⭐⭐⭐⭐⭐",
         },
+        {
+          text: "Thank you Baruch for an amazing night. You definitely know how to entertain the crowd. Looking forward to working with you in our next event. Thank you again!",
+          author: "Stella Yakubova ⭐⭐⭐⭐⭐",
+        },
         // Add more testimonials as needed
       ],
     };
