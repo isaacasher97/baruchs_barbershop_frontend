@@ -22,7 +22,7 @@
     <iframe
       width="100%"
       height="100%"
-      :src="'https://www.youtube.com/embed/CwBY5HxWvLw?autoplay=1'"
+      :src="'https://www.youtube.com/watch?v=iczqA_FJ2Xo'"
       frameborder="0"
       allowfullscreen
     ></iframe>
