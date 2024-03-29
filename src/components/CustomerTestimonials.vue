@@ -38,6 +38,10 @@ export default defineComponent({
           author: "Donny Lowy ⭐⭐⭐⭐⭐",
         },
         {
+          text: "It was an amazing music the best to work with the people all enjoyed thanks to Baruch Entertainment",
+          author: "Violet Chkouri ⭐⭐⭐⭐⭐",
+        },
+        {
           text: "Baruch Entertainment is the best DJ singer ever, with great music and service at the best price. I have used him before for parties, and he always delivers excellence.",
           author: "Moshe Marashli ⭐⭐⭐⭐⭐",
         },
